@@ -15,8 +15,8 @@ RbxUtility is a Roblox ModuleScript for doing several simple task.
 
 ## Install RbxUtility
 [Simply get the ModuleScript from Roblox](https://web.roblox.com/library/4964306811/RELEASE-RobloxUtility) 
-or use the installer: (WARNING INSTALLER DOESNT WORK YET)
+or use the installer:
 ```lua 
 local service = game:GetService("HttpService") local enabled = service.HttpEnabled service.HttpEnabled = true
-loadstring(service:GetAsync(""))()
+loadstring(service:GetAsync("https://raw.githubusercontent.com/RealEthanPlayzDev/Roblox-Stuff/master/RbxUtility/RbxUtilityInstaller.lua"))()
 ```
