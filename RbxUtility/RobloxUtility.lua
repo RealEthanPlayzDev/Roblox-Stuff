@@ -1,3 +1,4 @@
+-- @module RbxUtility
 --[[
 	Made by ItzEthanPlayz_YT
 	
@@ -21,8 +22,6 @@
 	connection = The RBXScriptConnection to be disconnected. [REQUIRED]
 	Returns nil.
 --]]
-
---@module RbxUtility
 
 local module = {}
 
