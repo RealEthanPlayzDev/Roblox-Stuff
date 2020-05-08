@@ -22,6 +22,8 @@
 	Returns nil.
 --]]
 
+--@module RbxUtility
+
 local module = {}
 
 --[[**
