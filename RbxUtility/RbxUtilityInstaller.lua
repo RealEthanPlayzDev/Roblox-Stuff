@@ -295,8 +295,9 @@ end
 print("[RbxUtility_Installer]: Installing RbxUtility...")
 
 spawn(function()
-  GitHub:Install("", game:GetService("ReplicatedStorage")
- end))
+	GitHub:Install("https://github.com/RealEthanPlayzDev/Roblox-Stuff/blob/master/RbxUtility/", game:GetService("ReplicatedStorage"))
+end)
+
  HttpService.HttpEnabled = false
  
  print("[RbxUtility_Installer]: Installed RbxUtility.")
