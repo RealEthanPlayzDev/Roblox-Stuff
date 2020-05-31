@@ -292,13 +292,15 @@ function GitHub:Install(Link, Parent, RoutineList)
 	end
 end
 
-print("[RbxUtility_Installer]: Installing RbxUtility...")
+print("[RbxUtility_Installer]: Installing RobloxUtility...")
+local installerCompleted = false
 HttpService.HttpEnabled = true
 spawn(function()
 	GitHub:Install("https://github.com/RealEthanPlayzDev/Roblox-Stuff/tree/master/RbxUtility/Release", game:GetService("ReplicatedStorage"))
+	installerCompleted = true
 end)
 
-wait(2)
- HttpService.HttpEnabled = false
+repeat wait() until installerCompleted
+HttpService.HttpEnabled = false
  
- print("[RbxUtility_Installer]: Installed RbxUtility.")
+print("[RbxUtility_Installer]: Installed RobloxUtility.")
