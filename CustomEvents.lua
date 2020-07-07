@@ -1,4 +1,4 @@
---@module
+-- @module CustomEvents.lua
 --[[
 	File name: CustomEvents.lua
 	Author: ItzEthanPlayz_YT
