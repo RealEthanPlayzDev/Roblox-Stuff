@@ -7,5 +7,4 @@ When you use something here, you can choose to credit me or not, remember that t
 
 Open sourced under the **MIT License**
 
-# Credits
-**ItzEthanPlayz_YT (Ethan Playz)**
+For credits, please check https://realethanplayz.github.io
